@@ -37,7 +37,6 @@ dart nome_do_arquivo.dart
 
 - 📖 [Documentação Oficial do Dart](https://dart.dev/)
 - ✏️ [DartPad (Editor Online)](https://dartpad.dev/)
-- 📑 [Tutoriais no Medium e Dev.to]
 
 ## ✨ Contribuição
 
