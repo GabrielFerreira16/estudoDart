@@ -51,17 +51,17 @@ Uma função em Dart é um bloco de código que executa uma tarefa específica. 
 ✅ **Aplicação:** Quando **não precisamos reutilizar** a função depois.
 
 ---
+## 📌 Resumo
 
-## 🎯 Resumo Rápido
+| Tipo de Função          | Exemplo                              |
+|-------------------------|--------------------------------------|
+| **Função Normal**       | `void saudacao(String nome) {}`     |
+| **Função Anônima**      | `var soma = (a, b) => a + b;`       |
+| **Arrow Function**      | `int dobro(int x) => x * 2;`        |
+| **Parâmetro Nomeado**   | `void msg({String nome = 'X'}) {}`  |
+| **Parâmetro Opcionais** | `void falar(String msg, [int? x])`  |
+| **Alta Ordem**          | `void executar(Function f) {}`      |
+| **Gerador (`sync*`)**   | `Iterable<int> contar() sync* {}`   |
+| **Gerador (`async*`)**  | `Stream<int> contar() async* {}`    |
+| **Externa (`external`)**| `external void funcao(int x);`      |
 
-| Tipo de Função | Explicação | Exemplo |
-|---------------|------------|---------|
-| **Sem Retorno (`void`)** | Executa algo, mas **não devolve valor** | `void dizerOla() { print('Olá!'); }` |
-| **Com Retorno (`int`, `String`...)** | **Calcula algo e retorna** um valor | `int somar(int a, int b) { return a + b; }` |
-| **Com Parâmetros Obrigatórios** | Precisa de **valores sempre** | `void apresentar(String nome, int idade)` |
-| **Com Parâmetros Opcionais (`[]`)** | **Pode ou não** receber valores | `void apresentar(String nome, [int? idade])` |
-| **Com Parâmetros Nomeados (`{}`)** | Permite valores fora de ordem e **valores padrão** | `void apresentar({required String nome, int idade = 18})` |
-| **Arrow Function (`=>`)** | Função **curta e simples** | `int dobrar(int n) => n * 2;` |
-| **Função Anônima** | Função **sem nome** usada dentro de outra | `nomes.forEach((nome) { print(nome); });` |
-
----
