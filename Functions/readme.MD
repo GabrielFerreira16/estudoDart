@@ -7,10 +7,12 @@ Uma função em Dart é um bloco de código que executa uma tarefa específica. 
 
 ### 📌 Função Sem Retorno
 🔹Utilizada quando a função apenas executa uma ação e não retorna um valor.
+
 ✅Aplicação: Exibir mensagens, realizar operações sem necessidade de um resultado específico.
 
 ### 📌 Função Com Retorno
 🔹Utilizada quando a função deve retornar um valor.
+
 ✅Aplicação: Cálculos matemáticos, obtenção de dados processados.
 
 ---
@@ -19,6 +21,7 @@ Uma função em Dart é um bloco de código que executa uma tarefa específica. 
 
 ### 📌 Parâmetros Obrigatórios
 🔹A função exige que os valores sejam passados.
+
 ✅Aplicação: Quando sempre precisamos de um valor para a execução correta da função.
 
 ### 📌 Parâmetros Opcionais
@@ -27,6 +30,7 @@ Uma função em Dart é um bloco de código que executa uma tarefa específica. 
 
 ### 📌 Parâmetros Nomeados
 🔹Permite a passagem de valores fora de ordem e definição de valores padrão.
+
 ✅Aplicação: Tornar o código mais legível e flexível.
 
 ---
@@ -35,16 +39,19 @@ Uma função em Dart é um bloco de código que executa uma tarefa específica. 
 
 ### 📌 Arrow Functions
 🔹Utilizada para funções de única expressão, tornando o código mais conciso.
+
 ✅Aplicação: Funções curtas e diretas, como cálculos rápidos.
 
 ### 📌 Funções Anônimas
 🔹Funções sem nome que podem ser atribuídas a variáveis ou passadas como parâmetro.
+
 ✅Aplicação: Quando a função é utilizada apenas em um contexto específico.
 
 ---
 
 ## 🟢 4. Funções de Alta Ordem
 🔹Funções que recebem outras funções como parâmetro ou retornam funções.
+
 ✅Aplicação: Manipulação de callbacks, programação funcional.
 
 ---
@@ -53,16 +60,19 @@ Uma função em Dart é um bloco de código que executa uma tarefa específica. 
 
 ### 📌 Gerador Síncrono (`sync*`)
 🔹Produz valores sob demanda de forma síncrona.
+
 ✅Aplicação: Iteração de listas e geração de sequências.
 
 ### 📌 Gerador Assíncrono (`async*`)
 🔹Produz valores sob demanda de forma assíncrona.
+
 ✅Aplicação: Trabalhar com streams e eventos assíncronos.
 
 ---
 
 ## 🟢 6. Funções Externas
 🔹Definidas com `external`, indicam que sua implementação está fora do código Dart.
+
 ✅Aplicação: Uso em interoperabilidade com código nativo.
 
 ---
